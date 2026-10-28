@@ -1,0 +1,24 @@
+{
+  "name": "bth012-a1-cli-shopping-cart",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A testable command-line shopping cart built with Node.js and Vitest.",
+  "type": "module",
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yueyinzh/javascript-classwork.git"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "vitest run --configLoader native",
+    "tests": "vitest run --configLoader native",
+    "test:watch": "vitest --configLoader native"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "devDependencies": {
+    "vitest": "^3.2.4"
+  }
+}
